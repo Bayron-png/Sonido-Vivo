@@ -6,7 +6,7 @@
 Proyecto de HTML, CSS y JavaScript para una tienda de Instrumentos y Equipos musicales.
 
 ## Autores
-| Nombre | Apellidos |
-| ------ | --------- |
-| Luis   | Álvarez   |
-| Bayron | Urrutia   |
+| Nombres          | Apellidos             |
+| ---------------- | --------------------- |
+| Luis Antonio     | Álvarez Requejo       |
+| Bayron Alexander | Urrutia Flores        |
