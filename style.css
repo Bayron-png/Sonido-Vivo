@@ -1,6 +1,29 @@
+/* Ajustes Globales */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* ---------------- */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(61, 103, 199);
+    height: 3.6rem;
+}
+
+header img {
+    position: absolute;
+    left: 0.5rem;
+    width: auto;
+    height: 3rem;
+    display: block;
+}
+
+/* Ajustes de texto */
+h1 {
+    color: white;
 }
