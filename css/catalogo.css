@@ -54,6 +54,7 @@ footer {
     align-items: center;
     background: #223C7A;
     width: auto;
+    margin-top: 2rem;
 
 }
 
@@ -147,9 +148,9 @@ h3 {
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
     padding-bottom: 3rem;
     font-weight: 650;
-    padding: 1rem;
 }
 
 .fondo-producto img{
