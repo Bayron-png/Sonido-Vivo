@@ -1,0 +1,63 @@
+/* Ajustes Globales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: #223C7A;
+    height: 4.5rem;
+}
+
+header a {
+    display: flex;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.7rem;
+}
+
+header img {
+    width: auto;
+    height: 3rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #fafafa;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #223C7A;
+    width: auto;
+    
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: rgb(238, 238, 238);
+    font-size: 1.1rem;
+}
+
+h3 {
+    color: white;
+    font-size: 1rem;
+}
