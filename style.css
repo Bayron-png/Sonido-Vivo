@@ -9,18 +9,23 @@
 
 header {
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     background: rgb(61, 103, 199);
     height: 3.6rem;
 }
 
-header img {
+header a {
+    display: flex;
     position: absolute;
     left: 0.5rem;
+    top: 0.3rem;
+}
+
+header img {
     width: auto;
     height: 3rem;
-    display: block;
 }
 
 /* Ajustes de texto */
