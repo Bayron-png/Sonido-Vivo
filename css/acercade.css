@@ -6,6 +6,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Ajustes de semántica */
 header {
     display: flex;
     flex-direction: column;
@@ -48,6 +49,12 @@ footer {
     
 }
 
+/* Ajustes de texto */
+p{
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.2rem;
+}
 h1 {
     color: white;
 }
@@ -60,6 +67,10 @@ h2 {
 h3 {
     color: white;
     font-size: 1rem;
+}
+
+p{
+    
 }
 
 .titulo-acercade {
