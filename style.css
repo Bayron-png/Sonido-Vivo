@@ -18,8 +18,8 @@ header {
     position: relative;
     justify-content: center;
     align-items: center;
-    background: rgb(61, 103, 199);
-    height: 3.6rem;
+    background: #223C7A;
+    height: 4.5rem;
 }
 
 header a {
@@ -34,6 +34,32 @@ header img {
     height: 3rem;
 }
 
+.barra-login {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    width: 100%;
+}
+
+.btn-login {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    background-color: #1544B1;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: background 0.2s ease;
+}
+
+.btn-login:hover {
+    background-color: #1a51d4;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -45,8 +71,60 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(61, 103, 199);
+    background: #223C7A;
     width: auto;
+}
+
+/* Navegación Menú Principal*/
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap; /*Acomodar verticalmente en celulares*/
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-redireccion {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: rgb(35, 53, 97);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    height:10rem;
+    width: 10rem;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+    transition: background 0.2s ease;
+}
+
+.btn-redireccion:hover {
+    background-color: rgb(36, 66, 136);
+}
+
+.seccion-navegacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.titulo-navegacion {
+    color: #ebe8e8;
+    background-color: rgb(21, 68, 177);
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    text-align: center;
 }
 
 /* Ajustes de texto */
@@ -116,26 +194,8 @@ button:hover {
     background: rgb(39, 72, 148);
 }
 
-.campo-error {
-    border: 2px solid #a3242f;
-    background: #fbe9ea;
-}
-
-/* Formulario contacto */
-.st_contacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
 /* Responsive: Tablet (min 768px) */
 @media (min-width: 768px) {
-    form {
-        max-width: 480px;
-    }
-
     header {
         height: 4.2rem;
     }
@@ -143,12 +203,4 @@ button:hover {
 
 /* Responsive: Escritorio (min 1280px) */
 @media (min-width: 1280px) {
-    .st_contacto {
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
-
-    form {
-        max-width: 520px;
-    }
 }
