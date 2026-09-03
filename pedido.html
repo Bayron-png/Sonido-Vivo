@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonido Vivo</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="js/validaciones.js" defer></script>
+    <script src="js/pedido.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="https://cdn.pixabay.com/photo/2017/05/05/16/37/logo-2287665_960_720.png" alt="Logo-guitarra"></a>
+        <h1>Sonido Vivo</h1>
+    </header>
+
+    <main>
+        <section id="pedido"> 
+            <h2>Realizar pedido</h2>
+            <form id="form-pedido" novalidate>
+                <!--configuracion boton radio-->
+                <fieldset>
+                    <legend>Tipo de entrega</legend>
+                    <label>
+                        <input type="radio" name="tipo-entrega" value="tienda" checked>
+                        Retiro en tienda
+                    </label>
+                    <label>
+                        <input type="radio" name="tipo-entrega" value="despacho">
+                        Despacho a domicilio
+                    </label>
+                </fieldset>
+                
+                <section id="retiro-tienda">
+                    <h2>Retiro en tienda</h2>
+                    <p>Elige tu punto de retiro:</p>
+
+                    <select id="punto-retiro" name="punto-retiro">
+                        <option value="tienda-principal">Tienda Sonido Vivo — Av. Valparaíso 123, Viña del Mar</option>
+                        <option value="punto-mall">Punto de retiro Mall Marina — local 45</option>
+                    </select>
+                    <div class="mapa">
+                        <iframe
+                        id="iframe-mapa"
+                        width="100%"
+                        height="350"
+                        style="border:0"
+                        loading="lazy"
+                        src="https://www.google.com/maps?q=Av.+Valparaiso+123,+Viña+del+Mar&output=embed">
+                        </iframe>
+                    </div>
+
+                    <p>Horario: Lunes a Sabado de 10:00 a 19:00</p>
+                    <button type="submit">Comprar</button>
+                </section>
+
+                <section id="despacho">
+                    <h2>Despacho a domicilio</h2>
+
+                    <label for="region">Region</label>
+                    <input type="text" id="region" name="region" required>
+
+                    <label for="comuna">Comuna</label>
+                    <input type="text" id="comuna" name="comuna" required>
+
+                    <label for="direccion">Dirección</label>
+                    <input type="text" id="direccion" name="direccion" required>
+                    
+                    <label for= "nombre">Nombre completo</label>
+                    <input type="text" id="nombre" required>
+
+                    <label for="correo">Correo</label>
+                    <input type="email" id="correo" required>
+
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" required>
+
+                    <button type="submit">Comprar</button>
+                    <p id="mensaje-confirmacion"></p>
+                </section>
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
