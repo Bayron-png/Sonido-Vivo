@@ -62,7 +62,7 @@ h3 {
     font-size: 1rem;
 }
 
-.titulo-login {
+.titulo-acercade {
     color: #ebe8e8;
     background-color: rgb(21, 68, 177);
     border-radius: 2rem;
@@ -75,7 +75,7 @@ h3 {
 }
 
 
-.contenedor-titulo{
-    display:flex;
+.contenedor-titulo {
+    display: flex;
     justify-content: center;
 }
