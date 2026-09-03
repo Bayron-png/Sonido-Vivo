@@ -46,15 +46,16 @@ footer {
     align-items: center;
     background: #223C7A;
     width: auto;
-    
+
 }
 
 /* Ajustes de texto */
-p{
+p {
     text-align: center;
     padding: 3rem;
     font-size: 1.2rem;
 }
+
 h1 {
     color: white;
 }
@@ -69,12 +70,16 @@ h3 {
     font-size: 1rem;
 }
 
-p{
-    
+h4 {
+    background: rgb(21, 68, 177);
+    border-radius: 1rem;
+    border: 1.5px solid rgb(83, 82, 82);
+    padding: 0.6rem;
+    color: #ffffff;
 }
 
-.titulo-acercade {
-    color: #ebe8e8;
+.titulo-producto {
+    color: #ffffff;
     background-color: rgb(21, 68, 177);
     border-radius: 2rem;
     padding: 1rem;
@@ -91,7 +96,7 @@ p{
     justify-content: center;
 }
 
-.btn-menu {
+.btn-catalogo {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -107,6 +112,20 @@ p{
     transition: background 0.2s ease;
 }
 
-.btn-menu:hover {
+.btn-catalogo:hover {
     background-color: #1a51d4;
+}
+
+.seccion-producto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-producto img {
+    height: 15rem;
+    border: 1px solid rgb(58, 58, 58);
+    border-radius: 1rem;
 }
