@@ -12,9 +12,36 @@
 
 <body>
     <header>
+
         <img src="https://cdn.pixabay.com/photo/2017/05/05/16/37/logo-2287665_960_720.png" alt="Logo-guitarra">
         <h1>Sonido Vivo</h1>
+
     </header>
+
+    <section id="contacto"> 
+        <h2>Contactanos</h2>
+        <form id "form-contacto" novalidate> 
+            <label for= "nombre">Nombre completo</label>
+            <input type="text" id="nombre" required>
+
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" required>
+
+            <label for="asunto">Asunto</label>
+            <select id="asunto" required>
+                <option>Consulta general</option>
+                <option>Reclamo</option>
+                <option>Otro</option>
+            </select>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id ="mensaje" rows="3"></textarea>
+
+            <button type="submit">Enviar</button>
+            <p id="mensaje-confirmation"></p>
+            </form>
+    </section>
+    
 </body>
 
 </html>
