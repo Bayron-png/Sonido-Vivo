@@ -6,7 +6,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Ajustes de Estructura */
+/* Ajustes de semántica */
 header {
     display: flex;
     flex-direction: column;
@@ -29,23 +29,15 @@ header img {
     height: 3rem;
 }
 
+main {
+    flex: 1;
+}
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     background: #fafafa;
-}
-
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.6rem;
-    margin-top: 2rem;
-}
-
-main {
-    flex: 1;
 }
 
 footer {
@@ -54,24 +46,14 @@ footer {
     align-items: center;
     background: #223C7A;
     width: auto;
-    margin-top: 2rem;
 
 }
 
 /* Ajustes de texto */
-a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-
-p{
-    background: rgb(35, 37, 39);
-    border-radius: 1rem;
-    color: rgb(255, 255, 255);
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
+p {
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.2rem;
 }
 
 h1 {
@@ -88,8 +70,16 @@ h3 {
     font-size: 1rem;
 }
 
-/* Clases */
-.titulo-catalogo {
+h4 {
+    background: rgb(21, 68, 177);
+    border-radius: 1rem;
+    border: 1.5px solid rgb(83, 82, 82);
+    padding: 0.6rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.titulo-producto {
     color: #ffffff;
     background-color: rgb(21, 68, 177);
     border-radius: 2rem;
@@ -107,7 +97,7 @@ h3 {
     justify-content: center;
 }
 
-.btn-menu {
+.btn-catalogo {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -123,29 +113,20 @@ h3 {
     transition: background 0.2s ease;
 }
 
-.btn-menu:hover {
+.btn-catalogo:hover {
     background-color: #1a51d4;
 }
 
-/* Tarjetas de productos */
-.fondo-producto{
+.seccion-producto{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
-    background: rgb(226, 225, 225);
-    border-radius: 1.3rem;
-    border: 2px solid #0a2053;
-    width: 13rem;
-    height: 13rem;
-    text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    padding-bottom: 3rem;
-    font-weight: 650;
 }
 
-.fondo-producto img{
-    height: 10rem;
-    padding: 1rem;
+.seccion-producto img {
+    height: 15rem;
+    border: 1px solid rgb(58, 58, 58);
+    border-radius: 1rem;
 }
