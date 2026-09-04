@@ -1,7 +1,7 @@
 function validarCamposGeneral(formulario, mensaje){
 
     const camposRequeridos = formulario.querySelectorAll('[required]');
-    const patronCorreo = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const patronCorreo = /^[^\s@]+@(duocuc\.cl|profesor\.duoc\.cl|gmail\.com)$/;
     
     
     let formularioValido = true;
