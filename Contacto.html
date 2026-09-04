@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="css/acercade.css">
     <script src="js/login.js"></script>
+    <script src="js/validaciones.js" defer></script>
+    <script src="js/contacto.js" defer></script>
 </head>
 
 <body>
@@ -23,13 +25,32 @@
         <div class="barra-menu"><a href="Menu.html" class="btn-menu">⬅ Volver al menú</a></div>
 
         <div class="contenedor-titulo">
-            <h2 class="titulo-acercade">Contacto</h2>
+            <h2 class="titulo-acercade">Contáctanos</h2>
         </div>
+        <section class="contenedor-contacto" class="seccion-descripcion" id="contacto"> 
+            <form class="formulario-contacto" id="form-contacto" novalidate> 
+                <label for= "nombre">Nombre</label>
+                <input type="text" placeholder="Ingresa tu nombre" id="nombre" maxlength="60" required>
 
-        <section class="seccion-descripcion">
-            <p>Crear formulario con nombre, correo y comentario</p>
+                <label for="correo">Correo</label>
+                <input type="email" placeholder="Ingresa tu correo" id="correo" maxlength="100" required>
+
+                <label for="asunto">Motivo de contacto</label>
+                <select id="asunto" required>
+                    <option>Solicitud de informacion (productos o tiendas)</option>
+                    <option>Problemas para comprar</option>
+                    <option>Problemas con el despacho</option>
+                    <option>Cambios y devoluciones</option>
+                    <option>Reclamos</option>
+                </select>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id ="mensaje" rows="3" required maxlength="500"></textarea>
+
+                <button type="submit">Enviar</button>
+                <p id="mensaje-confirmacion"></p>
+            </form>
         </section>
-
     </main>
 
     <footer>
