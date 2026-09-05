@@ -1,105 +1,11 @@
-/* Ajustes Globales */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-header {
+.contenedor-log-reg {
     display: flex;
     flex-direction: column;
-    position: relative;
-    justify-content: center;
     align-items: center;
-    background: #223C7A;
-    height: 4.5rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
-
-header a {
-    display: flex;
-    position: absolute;
-    left: 0.5rem;
-    top: 0.7rem;
-}
-
-header img {
-    width: auto;
-    height: 3rem;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background: #fafafa;
-}
-
-main {
-    flex: 1;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #223C7A;
-    width: auto;
-    
-}
-
-h1 {
-    color: white;
-}
-
-h2 {
-    color: rgb(238, 238, 238);
-    font-size: 1.1rem;
-}
-
-h3 {
-    color: white;
-    font-size: 1rem;
-}
-
-.titulo-login {
-    color: #ebe8e8;
-    background-color: rgb(21, 68, 177);
-    border-radius: 2rem;
-    padding: 1rem;
-    font-size: 1.4rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    margin-top: 0.2rem;
-    text-align: center;
-}
-
-
-.contenedor-titulo{
-    display:flex;
-    justify-content: center;
-}
-
-.btn-menu {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px 16px;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    background-color: #1544B1;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    transition: background 0.2s ease;
-}
-
-.btn-menu:hover {
-    background-color: #1a51d4;
-}
-
+/* Configuracion de elementos formulario */
 .formulario-log-reg{
     width: 500px;
     margin: 40px auto
@@ -131,17 +37,4 @@ h3 {
 
 .formulario-log-reg button:hover {
     background: #294c9c;
-}
-
-.contenedor-log-reg {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.campo-error {
-    border: 2px solid #a3242f;
-    background: #fbe9ea;
 }

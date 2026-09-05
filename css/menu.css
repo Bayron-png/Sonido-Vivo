@@ -1,37 +1,32 @@
-/* Ajustes Globales */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/* ---------------- */
-main {
-    /* Ocupa el espacio sobrante del centro / Empuja footer al fondo*/
-    flex: 1;
-}
-
-header {
+/* Navegación Menú Principal*/
+nav {
     display: flex;
-    flex-direction: column;
-    position: relative;
     justify-content: center;
     align-items: center;
-    background: #223C7A;
-    height: 4.5rem;
+    gap: 3rem;
+    flex-wrap: wrap; /*Acomodar verticalmente en celulares*/
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+/* ------------------------ */
+.titulo-navegacion {
+    color: #ffffff;
+    background-color: rgb(21, 68, 177);
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    text-align: center;
 }
 
-header a {
+.seccion-navegacion {
     display: flex;
-    position: absolute;
-    left: 0.5rem;
-    top: 0.7rem;
-}
-
-header img {
-    width: auto;
-    height: 3rem;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .barra-login {
@@ -41,7 +36,7 @@ header img {
     padding-right: 2rem;
     width: 100%;
 }
-
+/* Botones */
 .btn-login {
     display: inline-flex;
     align-items: center;
@@ -58,32 +53,6 @@ header img {
 
 .btn-login:hover {
     background-color: #1a51d4;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background: #fafafa;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #223C7A;
-    width: auto;
-}
-
-/* Navegación Menú Principal*/
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    flex-wrap: wrap; /*Acomodar verticalmente en celulares*/
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
 }
 
 .btn-redireccion {
@@ -106,42 +75,7 @@ nav {
 .btn-redireccion:hover {
     background-color: rgb(36, 66, 136);
 }
-
-.seccion-navegacion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
-}
-
-.titulo-navegacion {
-    color: #ffffff;
-    background-color: rgb(21, 68, 177);
-    border-radius: 2rem;
-    padding: 1rem;
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-    text-align: center;
-}
-
-/* Ajustes de texto */
-h1 {
-    color: white;
-}
-
-h2 {
-    color: #ffffff;
-    font-size: 1.1rem;
-}
-
-h3 {
-    color: white;
-    font-size: 1rem;
-}
-
+/* ------- */
 /* Responsive: Tablet (min 768px) */
 @media (min-width: 768px) {
     header {
