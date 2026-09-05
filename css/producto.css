@@ -1,5 +1,5 @@
 /* Ajustes de texto */
-p {
+.desc-text {
     text-align: center;
     padding: 3rem;
     font-size: 1.2rem;
