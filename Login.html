@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión | Registrarse</title>
     <link rel="stylesheet" href="css/login.css">
+    <script src="js/validaciones.js" defer></script>
+    <script src="js/login.js" defer></script>
 </head>
 
 <body>
@@ -19,9 +21,56 @@
 
     <main>
         <div class="barra-menu"><a href="Menu.html" class="btn-menu">⬅  Volver al menú</a></div>
-        <div class="contenedor-titulo">
-            <h2 class="titulo-login">Iniciar sesión / Registrarse</h2>
-        </div>
+
+        <section id="login" class="contenedor-log-reg">
+            <div class="contenedor-titulo">
+                <h2 class="titulo-login">Iniciar sesión</h2>
+            </div>
+            <form id="form-login" novalidate class="formulario-log-reg">
+
+                <label for="correo-login">Correo</label>
+                <input type="email" required placeholder="Ingrese su correo" id="correo-login" maxlength="100">
+                
+                <label for="l_pass">Contraseña</label>
+                <input type="password" required placeholder="Ingrese su contraseña" id="l_pass" minlength="4" maxlength="10">
+        
+                <button type="submit">Iniciar sesion</button>
+                
+                <p>
+                    ¿No tienes una cuenta?
+                    <a href="#" id="mostrarRegistro">Registrate</a>
+                </p>
+
+            </form>
+        </section>
+
+        <section id="registro" class="contenedor-log-reg">
+            <div class="contenedor-titulo">
+                <h2 class="titulo-login">Registrate</h2>
+            </div>
+            <form id="form-registro" novalidate class="formulario-log-reg">
+                <label for="nombre">Nombre</label>
+                <input type="text" required placeholder="Ingrese su nombre" id="nombre" maxlength="50">
+                
+                <label for="correo-registro">Correo</label>
+                <input type="email" required placeholder="Ingrese su correo" id="correo-registro" maxlength="100">            
+                
+                <label for="telefono">Telefono</label>
+                <input type="tel" placeholder="(opcional)" id="telefono" maxlength="9">
+
+                <label for="r_pass">Contraseña</label>
+                <input type="password" required id="r_pass" minlength="4" maxlength="10">
+
+                <label for="r_pass_rconfirm">Confirme su contraseña</label>
+                <input type="password" required id="r_pass_confirm" minlength="4" maxlength="10">
+
+                <button type="submit">Registrarse</button>
+                <p>
+                    ¿Ya tienes una cuenta?
+                    <a href="#" id="mostrarLogin">Inicia sesión</a>
+                </p>
+            </form>
+        </section>
     </main>
 
     <footer>

@@ -99,3 +99,53 @@ h3 {
 .btn-menu:hover {
     background-color: #1a51d4;
 }
+
+#registro {
+    display: none;
+}
+
+.formulario-log-reg{
+    width: 500px;
+    margin: 40px auto
+}
+
+.formulario-log-reg label{
+    display:block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.formulario-log-reg input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid#ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario-log-reg button {
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(61, 103, 199);
+    color: #ffffff;
+}
+
+.formulario-log-reg button:hover {
+    background: #294c9c;
+}
+
+.contenedor-log-reg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.campo-error {
+    border: 2px solid #a3242f;
+    background: #fbe9ea;
+}
