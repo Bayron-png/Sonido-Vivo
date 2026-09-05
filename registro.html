@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión | Registrarse</title>
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/ingreso.css">
     <script src="js/validaciones.js" defer></script>
-    <script src="js/login.js" defer></script>
+    <script src="js/registro.js" defer></script>
 </head>
 
 <body>
     <header>
-        <a href="Menu.html">
+        <a href="menu.html">
             <img src="https://cdn.pixabay.com/photo/2017/05/05/16/37/logo-2287665_960_720.png" alt="Logo-guitarra">
         </a>
         <h1>Sonido Vivo</h1>
@@ -20,30 +20,7 @@
     </header>
 
     <main>
-        <div class="barra-menu"><a href="Menu.html" class="btn-menu">⬅  Volver al menú</a></div>
-
-        <section id="login" class="contenedor-log-reg">
-            <div class="contenedor-titulo">
-                <h2 class="titulo-login">Iniciar sesión</h2>
-            </div>
-            <form id="form-login" novalidate class="formulario-log-reg">
-
-                <label for="correo-login">Correo</label>
-                <input type="email" required placeholder="Ingrese su correo" id="correo-login" maxlength="100">
-                
-                <label for="l_pass">Contraseña</label>
-                <input type="password" required placeholder="Ingrese su contraseña" id="l_pass" minlength="4" maxlength="10">
-        
-                <button type="submit">Iniciar sesion</button>
-                
-                <p>
-                    ¿No tienes una cuenta?
-                    <a href="#" id="mostrarRegistro">Registrate</a>
-                </p>
-
-            </form>
-        </section>
-
+        <div class="barra-menu"><a href="menu.html" class="btn-menu">⬅  Volver al menú</a></div>
         <section id="registro" class="contenedor-log-reg">
             <div class="contenedor-titulo">
                 <h2 class="titulo-login">Registrate</h2>
@@ -67,7 +44,7 @@
                 <button type="submit">Registrarse</button>
                 <p>
                     ¿Ya tienes una cuenta?
-                    <a href="#" id="mostrarLogin">Inicia sesión</a>
+                    <a href="login.html">Inicia sesión</a>
                 </p>
             </form>
         </section>
