@@ -1,0 +1,44 @@
+
+.carrito{
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.productos{
+    width: 65%;
+}
+
+.resumen{
+    width: 30%;
+    padding: 35%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.resumen button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.producto{
+    display: flex;
+    gap:20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.producto img{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.info-producto{
+    flex: 1;
+}

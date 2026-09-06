@@ -5,26 +5,75 @@
     font-size: 1.2rem;
 }
 
-h4 {
-    background: rgb(21, 68, 177);
-    border-radius: 1rem;
-    border: 1.5px solid rgb(83, 82, 82);
-    padding: 0.6rem;
-    color: #ffffff;
-    margin-bottom: 2rem;
+.precio {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1.5rem 0;
 }
 /* ----------------- */
 /* Secciones */
 .seccion-producto{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-wrap: 3rem;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .seccion-producto img {
-    height: 15rem;
-    border: 1px solid rgb(58, 58, 58);
+    width: 25rem;
+    height: 25rem;
+    object-fit: contain;
+}
+
+.producto-info {
+    width:25rem;
+}
+
+.producto-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.compra {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.compra input {
+    width: 4rem;
+    padding: 0.7rem;
+}
+
+.compra button {
+    padding: 0.7rem 2rem;
+    background: #1544B1;
+    color: white;
+    border: none;
     border-radius: 1rem;
+    cursor: pointer;
+}
+
+.caracteristicas {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2rem;
+}
+
+.caracteristicas h3 {
+    margin-bottom: 1rem;
+}
+
+.stock {
+    color: #238636;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.marca-modelo {
+    color: gray;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
 }
