@@ -7,6 +7,7 @@
     <title>Guitarra Eléctrica</title>
     <link rel="stylesheet" href="../css/base-style.css">
     <link rel="stylesheet" href="../css/producto.css">
+    <script src="../js/producto.js" defer></script>
 </head>
 
 <body>
@@ -24,18 +25,41 @@
     <main>
         <div class="barra-catalogo"><a href="../catalogo.html" class="btn-volver">⬅ Volver al catálogo</a></div>
 
-        <div class="contenedor-titulo">
-            <h2 class="titulo-tema">Guitarra Eléctrica</h2>
-        </div>
-
         <section class="seccion-producto">
             <img src="https://www.pngarts.com/files/3/Electric-Guitar-PNG-High-Quality-Image.png"
                 alt="guitarra-electrica">
+            <div class="producto-info">
 
-            <p class="desc-text">Una moderna guitarra eléctrica fiel a los inicios del rock. Cuenta la
-                leyenda que fué tocada por Slash de Guns N' Roses, y el que la toque tendrá
-                sus dones musicales.</p>
-            <h4>$49.990</h4>
+                <h2>Guitarra Eléctrica</h2>
+
+                <p class="marca-modelo">Squier - modelo: Affinity Strat</p>
+
+                <div class="caracteristicas">
+                    <p class="desc-text">Una moderna guitarra eléctrica fiel a los inicios del rock. Cuenta la
+                        leyenda que fué tocada por Slash de Guns N' Roses, y el que la toque tendrá
+                        sus dones musicales.</p>
+                    <br>
+                    <div class="desc-text">
+                        <h3>Caracteristicas</h3>
+                        <ul>
+                            <li>Cuerpo de álamo</li>
+                            <li>Mástil de arce</li>
+                            <li>Pastillas SSS</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <p class="stock">Stock disponible: 2 unidades</p>
+
+                <p class="precio">$249.990</p>
+
+                <div class="compra">
+                    <input type="numer" value="1" min="1" max="2s">
+                    <button id="btn-agregar">Agregar al carrito</button>
+                </div>
+            </div>
         </section>
 
     </main>

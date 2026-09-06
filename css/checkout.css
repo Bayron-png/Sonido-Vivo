@@ -47,7 +47,7 @@
 }
 
 .cantidad button {
-   width: 35px;
+    width: 35px;
     height: 35px;
     padding: 0;
     border: none;
@@ -103,4 +103,31 @@
     border: 2px solid#ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+
+    .carrito {
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px;
+    }
+
+    .productos {
+        width: 100%;
+    }
+
+    .resumen {
+        width: 100%;
+    }
+
+    .producto {
+        gap: 10px;
+    }
+
+    .producto img {
+        width: 80px;
+        height: 80px;
+    }
+
 }
