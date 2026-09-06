@@ -1,16 +1,15 @@
-
-.carrito{
+.carrito {
     display: flex;
     gap: 30px;
     max-width: 1200px;
     margin: 40px auto;
 }
 
-.productos{
+.productos {
     width: 65%;
 }
 
-.resumen{
+.resumen {
     width: 30%;
     padding: 35%;
     border: 1px solid #ddd;
@@ -26,19 +25,19 @@
     cursor: pointer;
 }
 
-.producto{
+.producto {
     display: flex;
-    gap:20px;
+    gap: 20px;
     padding: 20px 0;
     border-bottom: 1px solid #ddd;
 }
 
-.producto img{
+.producto img {
     width: 120px;
     height: 120px;
     object-fit: contain;
 }
 
-.info-producto{
+.info-producto {
     flex: 1;
 }

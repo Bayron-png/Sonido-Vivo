@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 /* Ajustes de Estructura/Semántica */
 header {
     display: flex;
@@ -34,7 +35,7 @@ body {
 }
 
 main {
-/* Ocupa el espacio sobrante del centro / Empuja footer al fondo*/
+    /* Ocupa el espacio sobrante del centro / Empuja footer al fondo*/
     flex: 1;
 }
 
@@ -46,6 +47,7 @@ footer {
     width: auto;
     margin-top: 2rem;
 }
+
 /*
 footer {
     display: flex;
@@ -77,8 +79,9 @@ h1 {
 }
 
 /* |> Clases */
-.eslogan-text{ /*tamaño h2*/
-    color:white;
+.eslogan-text {
+    /*tamaño h2*/
+    color: white;
     font-size: 1.5em;
 }
 
@@ -87,8 +90,10 @@ h1 {
     justify-content: center;
 }
 
-.titulo-tema{
-    color: #ebe8e8 /*ffffff*/;
+.titulo-tema {
+    color: #ebe8e8
+        /*ffffff*/
+    ;
     background-color: rgb(21, 68, 177);
     border-radius: 2rem;
     padding: 1rem;
@@ -99,11 +104,13 @@ h1 {
     text-align: center;
 }
 
-.copyright-text{ /*tamaño h3*/
+.copyright-text {
+    /*tamaño h3*/
     color: white;
     font-size: 1rem;
     font-weight: bold;
 }
+
 /* ------------------------------------ */
 /* Botones */
 .btn-volver {
@@ -125,6 +132,7 @@ h1 {
 .btn-volver:hover {
     background-color: #1a51d4;
 }
+
 /* Uso en formularios */
 .campo-error {
     border: 2px solid #a3242f;

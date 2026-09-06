@@ -1,30 +1,32 @@
 /* Ajustes de texto */
-.desc-text{
+.desc-text {
     text-align: center;
     padding: 3rem;
     font-size: 1.2rem;
 }
+
 /* ---------------- */
-.contenedor-contacto{
+.contenedor-contacto {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 /* Configuracion de elementos formulario */
-.formulario-contacto{
+.formulario-contacto {
     width: 500px;
     margin: 40px auto
 }
 
-.formulario-contacto label{
-    display:block;
+.formulario-contacto label {
+    display: block;
     margin-bottom: 8px;
     font-weight: bold;
 }
 
-.formulario-contacto input, 
+.formulario-contacto input,
 .formulario-contacto select,
 .formulario-contacto textarea {
     width: 100%;
@@ -35,7 +37,7 @@
     box-sizing: border-box;
 }
 
-.formulario-contacto select{
+.formulario-contacto select {
     cursor: pointer;
 }
 

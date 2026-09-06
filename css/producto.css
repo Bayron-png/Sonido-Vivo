@@ -10,9 +10,10 @@
     font-weight: bold;
     margin: 1.5rem 0;
 }
+
 /* ----------------- */
 /* Secciones */
-.seccion-producto{
+.seccion-producto {
     display: flex;
     flex-wrap: 3rem;
     justify-content: center;
@@ -26,7 +27,7 @@
 }
 
 .producto-info {
-    width:25rem;
+    width: 25rem;
 }
 
 .producto-info h2 {

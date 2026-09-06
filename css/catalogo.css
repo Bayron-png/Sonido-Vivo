@@ -5,8 +5,9 @@ nav {
     gap: 1.6rem;
     margin-top: 2rem;
 }
+
 /* Ajustes de texto */
-.name-producto{
+.name-producto {
     background: rgb(35, 37, 39);
     border-radius: 1rem;
     color: rgb(255, 255, 255);
@@ -15,9 +16,10 @@ nav {
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
 }
+
 /* ---------------- */
 /* Tarjetas de productos */
-.fondo-producto{
+.fondo-producto {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -34,7 +36,7 @@ nav {
     font-weight: 650;
 }
 
-.fondo-producto img{
+.fondo-producto img {
     height: 10rem;
     padding: 1rem;
 }

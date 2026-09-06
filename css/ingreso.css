@@ -5,14 +5,15 @@
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 /* Configuracion de elementos formulario */
-.formulario-log-reg{
+.formulario-log-reg {
     width: 500px;
     margin: 40px auto
 }
 
-.formulario-log-reg label{
-    display:block;
+.formulario-log-reg label {
+    display: block;
     margin-bottom: 8px;
     font-weight: bold;
 }
