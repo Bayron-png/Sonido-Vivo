@@ -1,6 +1,6 @@
 const f_pedido = document.querySelector('#form-pedido');
 
-f_pedido.addEventListener('submit', function(e) {
+f_pedido.addEventListener('submit', function (e) {
     e.preventDefault();
     validarCamposGeneral(f_pedido, '¡Compra realizada!');
 });
@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const retiroTienda = document.getElementById('retiro-tienda');
     const despacho = document.getElementById('despacho');
 
-    function actualizarVista(){
+    function actualizarVista() {
         const seleccion = document.querySelector('input[name="tipo-entrega"]:checked').value;
 
-        if(seleccion === 'tienda'){
+        if (seleccion === 'tienda') {
             retiroTienda.style.display = 'block';
             despacho.style.display = 'none';
         } else {
@@ -37,3 +37,4 @@ document.addEventListener('DOMContentLoaded', () => {
         iframe.src = `https://www.google.com/maps?q=${encodeURIComponent(direccion)}&output=embed`;
     });
 });
+

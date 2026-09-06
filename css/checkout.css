@@ -10,11 +10,10 @@
 }
 
 .resumen {
-    width: 30%;
-    padding: 35%;
+    width: 35%;
     border: 1px solid #ddd;
     border-radius: 10px;
-    height: fit-content;
+    padding: 2rem;
 }
 
 .resumen button {
@@ -23,6 +22,8 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    background: #1544B1;
+    color: white;
 }
 
 .producto {
@@ -38,6 +39,68 @@
     object-fit: contain;
 }
 
+.cantidad {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+
+.cantidad button {
+   width: 35px;
+    height: 35px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: #1544B1;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.cantidad input {
+    width: 50px;
+    height: 35px;
+    text-align: center;
+}
+
+.cantidad p {
+    margin-top: 1rem;
+}
+
+.elegir-cantidad {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.gray-text {
+    font-size: 0.8;
+    color: #666;
+}
+
 .info-producto {
     flex: 1;
+}
+
+.formulario-pedido {
+    width: 500px;
+    margin: 40px auto
+}
+
+.formulario-pedido label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.formulario-pedido input,
+.formulario-pedido select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid#ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
