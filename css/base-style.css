@@ -1,8 +1,11 @@
 /* Ajustes Globales */
 * {
+    /* Incluye padding y border dentro del ancho y alto del elemento */
     box-sizing: border-box;
+    /* Elimina márgenes y espacios internos predeterminados del navegador */
     margin: 0;
     padding: 0;
+    /* Define la fuente general del sitio */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -10,6 +13,7 @@
 header {
     display: flex;
     flex-direction: column;
+    /* Permite posicionar los elementos del encabezado de forma relativa */
     position: relative;
     justify-content: center;
     align-items: center;
@@ -18,18 +22,22 @@ header {
 }
 
 header a {
+    /* Permite posicionar los enlaces del logo y carrito */
     display: flex;
     position: absolute;
 }
 
 header img {
+    /* Define la altura de las imágenes manteniendo su proporción */
     width: auto;
     height: 3rem;
 }
 
 body {
+    /* Organiza el contenido principal y el footer verticalmente */
     display: flex;
     flex-direction: column;
+    /* Hace que el body ocupe como mínimo toda la altura de la ventana */
     min-height: 100vh;
     background: #fafafa;
 }
@@ -48,18 +56,9 @@ footer {
     margin-top: 2rem;
 }
 
-/*
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #223C7A;
-    width: auto
-}
-*/
-/* ------------------------------- */
 /* Ajustes de texto */
 a {
+    /* Elimina el subrayado y define el color de los enlaces */
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
@@ -68,6 +67,7 @@ h1 {
     color: white;
 }
 
+/* Posición de los iconos del encabezado */
 .ico-carrito {
     right: 0.5rem;
     top: 0.7rem;
@@ -78,18 +78,20 @@ h1 {
     top: 0.7rem;
 }
 
-/* |> Clases */
+/* Clases */
 .eslogan-text {
     /*tamaño h2*/
     color: white;
     font-size: 1.5em;
 }
 
+/* Centra el título dentro de su contenedor */
 .contenedor-titulo {
     display: flex;
     justify-content: center;
 }
 
+/* Estilo visual de los títulos principales de las paginas */
 .titulo-tema {
     color: #ebe8e8
         /*ffffff*/
@@ -111,29 +113,33 @@ h1 {
     font-weight: bold;
 }
 
-/* ------------------------------------ */
 /* Botones */
 .btn-volver {
+    /* Permite alinear el contenido del botón */
     display: inline-flex;
     align-items: center;
     justify-content: center;
+
     padding: 8px 16px;
     margin-top: 1rem;
     margin-left: 1rem;
+
     background-color: #1544B1;
     color: #ffffff;
     text-decoration: none;
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: 600;
+    /* Define una transición suave para cambios visuales */
     transition: background 0.2s ease;
 }
 
+/* Cambio de color del botón al pasar el cursor */
 .btn-volver:hover {
     background-color: #1a51d4;
 }
 
-/* Uso en formularios */
+/* Estilo aplicado a campos que presentan errores de validación */
 .campo-error {
     border: 2px solid #a3242f;
     background: #fbe9ea;

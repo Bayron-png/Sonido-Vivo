@@ -9,7 +9,7 @@ nav {
     margin-bottom: 1.5rem;
 }
 
-/* ------------------------ */
+/* Título de la navegación principal */
 .titulo-navegacion {
     color: #ffffff;
     background-color: rgb(21, 68, 177);
@@ -22,6 +22,7 @@ nav {
     text-align: center;
 }
 
+/* Contenedor de la sección de navegación */
 .seccion-navegacion {
     display: flex;
     flex-direction: column;
@@ -30,6 +31,7 @@ nav {
     margin-bottom: 1.5rem;
 }
 
+/* Contenedor del botón de "iniciar sesion/registro" */
 .barra-login {
     display: flex;
     justify-content: flex-end;
@@ -38,7 +40,7 @@ nav {
     width: 100%;
 }
 
-/* Botones */
+/* Botón de "iniciar sesion/registro"*/
 .btn-login {
     display: inline-flex;
     align-items: center;
@@ -53,10 +55,12 @@ nav {
     transition: background 0.2s ease;
 }
 
+/* Cambio de color al pasar el cursor sobre el botón */
 .btn-login:hover {
     background-color: #1a51d4;
 }
 
+/* Botones de redirección del menú */
 .btn-redireccion {
     display: inline-flex;
     align-items: center;
@@ -74,11 +78,11 @@ nav {
     transition: background 0.2s ease;
 }
 
+/* Cambio de color al pasar el cursor sobre los botones */
 .btn-redireccion:hover {
     background-color: rgb(36, 66, 136);
 }
 
-/* ------- */
 /* Responsive: Tablet (min 768px) */
 @media (min-width: 768px) {
     header {

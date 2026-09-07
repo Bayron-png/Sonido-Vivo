@@ -11,8 +11,8 @@
     font-weight: bold;
     margin: 1.5rem 0;
 }
-/* ----------------- */
-/* Secciones */
+
+/* Distribución general de la información del producto */
 .seccion-producto{
     display: flex;
     flex-wrap: wrap;
@@ -21,12 +21,14 @@
     align-items: flex-start;
 }
 
+/* Imagen del producto */
 .seccion-producto img {
     width: 25rem;
     height: 25rem;
     object-fit: contain;
 }
 
+/* Información y datos del producto */
 .producto-info {
     width:25rem;
 }
@@ -36,6 +38,7 @@
     margin-bottom: 1rem;
 }
 
+/* Contenedor de cantidad y botón de agregar al carrito */
 .compra {
     display: flex;
     gap: 1rem;
@@ -56,6 +59,7 @@
     cursor: pointer;
 }
 
+/* Sección de características del producto */
 .caracteristicas {
     margin: 1.5rem 0;
     padding: 0;
@@ -70,6 +74,7 @@
     padding-left: 0;
 }
 
+/* Información sobre disponibilidad del producto */
 .stock {
     color: #238636;
     font-size: 1rem;
@@ -77,6 +82,7 @@
     margin-top: 1rem;
 }
 
+/* Información de marca y modelo */
 .marca-modelo {
     color: gray;
     font-size: 1rem;
