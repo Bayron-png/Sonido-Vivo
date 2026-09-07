@@ -39,3 +39,9 @@
 .formulario-log-reg button:hover {
     background: #294c9c;
 }
+
+.cambio-form {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
